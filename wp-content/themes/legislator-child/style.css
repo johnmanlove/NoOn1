@@ -1,0 +1,226 @@
+/*
+Theme Name: No On 1
+Author: John Manlove Marketing and Communications
+Author URI: http://www.johnmanlove.com
+Version: 1.0
+Template: legislator
+*/
+
+
+
+ @import url('css/style.css');
+
+h1, h2, h3, h4, h5, h6, .top-bar .toggle-topbar.menu-icon,
+.entry_date span, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	color: #b71b1b;
+}
+
+h1, h2, h3, h4, h5, h6, .top-bar .toggle-topbar.menu-icon {
+	line-height: 1.4em;
+}
+
+a {
+	color: #b71b1b;
+}
+
+.logo a img { 
+	margin-top: 0 !important; margin-bottom: 0 !important; width: 15%; 
+}
+
+.hero_section {
+	padding-bottom: 20px;
+}
+
+.hero_section h1.hero_h1 {
+	font-size: 8.5em !important;
+}
+
+.hero_section h2.hero_h2 {
+	font-size: 2em !important;
+	line-height: 1.3em !important;
+	text-transform: uppercase !important;
+}
+
+.home_widgets_hero > div {
+	text-align: center;
+}
+
+.home_widgets_hero > div .large-6 {
+	width: 100% !important;
+}
+
+input[type="text"], 
+input[type="password"], 
+input[type="date"], 
+input[type="datetime"], 
+input[type="datetime-local"], 
+input[type="month"], 
+input[type="week"], 
+input[type="email"], 
+input[type="number"], 
+input[type="search"], 
+input[type="tel"], 
+input[type="time"], 
+input[type="url"], 
+input[type="color"], textarea {
+	border: 4px solid #ddd;
+	border-radius: 10px;
+}
+
+.wpcf7 input[type="submit"] {
+	background-color: #b71b1b;
+	width: 100%;
+}
+	.wpcf7 input[type="submit"]:hover {
+		background-color: #9e1818;
+	}
+
+.events_bg_image_pos {
+	background-image: none !important;
+}
+
+.home_events_wrap {
+	box-shadow: inset 0px 10px 7px #222;
+}
+
+.home_widget_events .duration {
+	background-color: #f7921e;
+}
+
+.home_events_wrap li h5 {
+	min-height: 92px;
+}
+
+.about_img {
+	text-align: center;
+}
+	.about_img img {
+		width: 80%;
+	}
+
+.home_bio_title {
+	text-align: center;
+}
+	.home_bio ul li {
+		display: inline-block;
+		margin-bottom: 1em !important;
+		width: 47% !important;
+	}
+
+.home_widget_events .duration span {
+	color: #333;
+}
+
+.tribe-events-widget-link {
+	display: none !important;
+}
+
+.headline {
+	padding: 30px 0 15px;
+}
+	.headline h2 {
+		color: #b71b1b;
+		font-size: 2em;
+		line-height: 1.2em;
+		text-transform: uppercase;
+		text-align: center;
+	}
+
+.home_text_blocks .medium-3 {
+	min-height: 510px;
+	padding: 30px 1.5em;
+}
+	.home_text_blocks .medium-3:nth-child(2n) {
+		background: #f5f5f5;
+	}
+
+	.home_text_blocks h4 {
+		color: #b71b1b;
+		font-size: 1.2em;
+		line-height: 1.2em !important;
+		text-align: center;
+	}
+
+	.home_text_blocks p {
+		margin-bottom: 0;
+	}
+
+		.home_text_blocks .medium-3 a {
+			color: #b71b1b;
+		}
+
+.home_latest_news {
+	background: #f5f5f5;
+	margin-bottom: 0;
+	padding-bottom: 3em;
+	padding-top: 30px;
+	box-shadow: inset 0 10px 20px #ddd;
+}
+	.home .home_latest_news hr:after {
+		background-color: #f5f5f5 !important;
+	}
+
+	.home_latest_news .recent-news {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+		.home_latest_news .recent-news li {
+			display: inline-block;
+			margin-right: 4%;
+			width: 21%;
+		}
+			.home_latest_news .recent-news li:last-child {
+				margin-right: 0;
+			}
+
+#tribe-events .tribe-events-button, #tribe-events .tribe-events-button:hover, #tribe_events_filters_wrapper input[type=submit], .tribe-events-button, .tribe-events-button.tribe-active:hover, .tribe-events-button.tribe-inactive, .tribe-events-button:hover, .tribe-events-calendar td.tribe-events-present div[id*=tribe-events-daynum-], .tribe-events-calendar td.tribe-events-present div[id*=tribe-events-daynum-]>a {
+	background-color: #b71b1b;
+}
+
+.inner_content main .featured_image {
+	display: none;
+}
+
+.inner_content main .entry_meta {
+	display: none;
+}
+
+.pdf-link {
+	background: url(/wp-content/uploads/2015/09/pdf-icon.png) 0 0 no-repeat;
+	background-size: 5%;
+	display: block;
+	height: 40px;
+	padding-left: 50px;
+}
+
+ol > li > ol {
+	margin-bottom: 0 !important;
+}
+
+ul.coalition {
+	margin-top: 40px !important;
+}
+
+.footer_widget .vcalendar {
+	margin: 0;
+}
+	.footer_widget .vcalendar .medium-4 {
+		padding: 0 !important;
+		width: 100% !important;
+	}
+
+#site_footer .widget_search form span {
+	display: none;
+}
+
+#site_footer {
+	box-shadow: inset 0 10px 20px #111;
+}
+
+	#site_footer .widget_search input[type="search"] {
+		color: #666;
+		margin: 10px 0 20px;
+		box-sizing: border-box;
+		height: 50px;
+	}
