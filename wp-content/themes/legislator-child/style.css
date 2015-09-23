@@ -1,7 +1,7 @@
 /*
 Theme Name: No On 1
-Author: John Manlove Marketing and Communications
-Author URI: http://www.johnmanlove.com
+Author: //
+Author URI: //
 Version: 1.0
 Template: legislator
 */
@@ -33,12 +33,14 @@ a {
 
 .hero_section h1.hero_h1 {
 	font-size: 8.5em !important;
+	text-shadow: 2px 2px black;
 }
 
 .hero_section h2.hero_h2 {
 	font-size: 2em !important;
 	line-height: 1.3em !important;
 	text-transform: uppercase !important;
+	text-shadow -1px -1px black;
 }
 
 .home_widgets_hero > div {
